@@ -506,6 +506,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
    WfdCommon
 
+PRODUCT_PACKAGES += \
+    libnl
+
 #XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts \
