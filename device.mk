@@ -21,6 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
+# perf
+$(call inherit-product-if-exists, vendor/qcom/common/perf/perf-vendor.mk)
+TARGET_COMMON_QTI_COMPONENTS := perf
+
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
