@@ -16,18 +16,16 @@
 
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
-# Inherit some common Revenge OS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+# Inherit some common Reloaded OS stuff.
+$(call inherit-product, vendor/reloaded/common.mk)
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4
-PRODUCT_NAME := revengeos_santoni
+PRODUCT_NAME := reloaded_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
-# Official
-REVENGEOS_BUILDTYPE=OFFICIAL
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720

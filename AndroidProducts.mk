@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_santoni.mk
+    $(LOCAL_DIR)/reloaded_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_santoni-userdebug \
-    revengeos_santoni-user \
-    revengeos_santoni-eng
+    reloaded_santoni-userdebug \
+    reloaded_santoni-user \
+    reloaded_santoni-eng
