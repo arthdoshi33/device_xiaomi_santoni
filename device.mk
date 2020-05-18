@@ -523,5 +523,4 @@ PRODUCT_PACKAGES += \
 
 #XiaomiParts
 PRODUCT_PACKAGES += \
-    XiaomiParts \
-    XiaomiAddon
+    XiaomiParts
