@@ -26,6 +26,12 @@ PRODUCT_NAME := reloaded_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
+#gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
