@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
 
+#bt
+$(call inherit-product-if-exists, vendor/qcom/common/bt/bt-vendor.mk)
+
 # perf
 $(call inherit-product-if-exists, vendor/qcom/common/perf/perf-vendor.mk)
 TARGET_COMMON_QTI_COMPONENTS := perf
