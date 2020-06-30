@@ -1,3 +1,4 @@
 allow cameraserver mediacodec:binder call;
 allow cameraserver gpu_device:chr_file { ioctl open read write };
 allow cameraserver persist_camera_prop:file read;
+get_prop(cameraserver, persist_camera_prop)

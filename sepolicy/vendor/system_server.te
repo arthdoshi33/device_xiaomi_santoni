@@ -24,3 +24,6 @@ allow system_server sysfs_battery_supply:file rw_file_perms;
 
 # power
 allow system_server sysfs_battery_supply:file { read open getattr };
+
+# Allow system server to read persist camera properties
+get_prop(system_server, persist_camera_prop)
