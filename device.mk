@@ -385,10 +385,9 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.msm.usb.configfs.rc \
     init.target.rc \
-    ueventd.qcom.rc
-
-#    init.spectrum.rc \
-#    init.spectrum.sh
+    ueventd.qcom.rc \
+    init.spectrum.rc \
+    init.spectrum.sh
 
 PRODUCT_PACKAGES += \
     init.baseband.sh \
@@ -509,8 +508,8 @@ PRODUCT_PACKAGES += \
     libnl
 
 #XiaomiAddon
-#PRODUCT_PACKAGES += \
-#    XiaomiAddon
+PRODUCT_PACKAGES += \
+    XiaomiAddon
 	
 #XiaomiParts
 PRODUCT_PACKAGES += \
